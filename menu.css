@@ -181,6 +181,20 @@ nav{
     
 }
 
+
+@media only screen and (max-width: 490px), only screen and (max-device-width: 490px){
+    .web_intro h1,.web_intro h2{
+        font-size: 25px;
+    }
+        .info_item1{
+    font-size: 13px;
+}
+    .web_intro a{
+        font-size: 19px;
+    }
+    
+}
+
 @media only screen and (max-width: 640px), only screen and (max-device-width: 640px){
     .headerMenuList {
         display: none;   
@@ -258,21 +272,7 @@ nav{
 }
     
 }
-
-@media only screen and (max-width: 490px), only screen and (max-device-width: 490px){
-    .web_intro h1,.web_intro h2{
-        font-size: 25px;
-    }
-        .info_item1{
-    font-size: 13px;
-}
-    .web_intro a{
-        font-size: 19px;
-    }
-    
-}
-
-@media only screen and (max-width: 320px), only screen and (max-device-width: 320px){
+@media only screen and  (max-width: 320px), only screen and (max-device-width: 320px){
     .logo{
         margin-left: 7px;
         font-size: 7.5px;
